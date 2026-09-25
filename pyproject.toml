@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ALEX"
+version = "1.0.0"
+description = "ALEX runtime library"
+requires-python = ">=3.8"
+authors = [{name = "alex0004124"}]
+
+[tool.setuptools]
+py-modules = ["__init__"]
